@@ -4,13 +4,13 @@ import Chart from 'react-apexcharts'
 import { BASE_URL } from 'utils/requests'
 import { useEffect, useState } from 'react'
 
-type ChartData = {
+type DonutChartData = {
   labels: string[]
   series: number[]
 }
 
 function DonutChart() {
-  const [chartData, setChartData] = useState<ChartData>({
+  const [chartData, setChartData] = useState<DonutChartData>({
     labels: [],
     series: []
   })
