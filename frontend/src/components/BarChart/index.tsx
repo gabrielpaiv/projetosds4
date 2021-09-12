@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Chart from 'react-apexcharts'
 import { SaleSucess } from 'types/sale'
-import { round } from 'utils/formatNumber'
+import { round } from 'utils/format'
 import { BASE_URL } from 'utils/requests'
 
 type SeriesData = {
